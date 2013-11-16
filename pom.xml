@@ -89,21 +89,33 @@
 	</build>
 	<repositories>
 		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 			<id>spring-milestones</id>
+			<name>milestone</name>
 			<url>http://repo.spring.io/milestone</url>
 		</repository>
 		<repository>
+			<snapshots />
 			<id>spring-snapshots</id>
+			<name>snapshot</name>
 			<url>http://repo.spring.io/snapshot</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>spring-plugin-milestones</id>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>spring-milestones</id>
+			<name>milestone</name>
 			<url>http://repo.spring.io/milestone</url>
 		</pluginRepository>
 		<pluginRepository>
-			<id>spring-plugin-snapshots</id>
+			<snapshots />
+			<id>spring-snapshots</id>
+			<name>snapshot</name>
 			<url>http://repo.spring.io/snapshot</url>
 		</pluginRepository>
 	</pluginRepositories>
