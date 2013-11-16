@@ -89,14 +89,22 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>repository.spring.milestone</id>
+			<id>spring-milestones</id>
 			<url>http://repo.spring.io/milestone</url>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<url>http://repo.spring.io/snapshot</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>spring-milestones</id>
+			<id>spring-plugin-milestones</id>
 			<url>http://repo.spring.io/milestone</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-plugin-snapshots</id>
+			<url>http://repo.spring.io/snapshot</url>
 		</pluginRepository>
 	</pluginRepositories>
 </project>
