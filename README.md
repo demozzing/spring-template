@@ -10,4 +10,7 @@ to provide:
 * Thymeleaf Template Engine
 * A sensible .gitignore file as starting point
 
+The project layout is heavily inspired by the Spring Boot sample projects. This
+work is licensed under the Apache License version 2 (see LICENSE.txt).
+
 Have fun!
