@@ -18,13 +18,12 @@ Getting Started
 
 1. On the shell:
 
-```bash
-git clone https://github.com/martinmo/spring-template.git
-cd spring-template
-mvn -U clean install
-mvn spring-boot:run
-# (Press Ctrl-C to stop the embedded Tomcat)
-```
+  ```bash
+  git clone https://github.com/martinmo/spring-template.git
+  cd spring-template
+  mvn -U clean install
+  mvn spring-boot:run   # Press Ctrl-C to stop the embedded Tomcat
+  ```
 
 2. Browse and enjoy http://localhost:8080/
 
