@@ -29,6 +29,31 @@ Getting Started
 
 2. Browse and enjoy http://localhost:8080/
 
+Importing into Eclipse
+----------------------
+
+1. Prerequisite: Eclipse IDE for Java EE Developers
+
+2. Very straightforward: File -> Import... -> Existing Maven Project
+
+3. Import the code formatting rules (eclipse-codeformatter.xml) and the code
+   template settings (eclipse-codetemplates.xml):
+
+        Project Properties -> Java Code Style -> Code Templates -> Import...
+        Project Properties -> Java Code Style -> Formatter -> Import...
+
+Tips
+----
+
+* Use consistent code formatting (always tabs) and avoid long lines, this
+  makes reading code and diffs much easier. Use the above provided template
+  and format settings for Eclipse and configure your favorite editor
+  appropriately (e.g., use Vim modelines).
+* Never commit generated files (e.g., Java .class files), they will always
+  lead to conflicts.
+* Use consistent, meaningful commit messages (not "blub", "update" etc).
+* *Never* put unrelated changes into one commit.
+
 Credits and License
 -------------------
 
