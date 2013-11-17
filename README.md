@@ -36,11 +36,13 @@ Importing into Eclipse
 
 2. Very straightforward: File -> Import... -> Existing Maven Project
 
-3. Import the code formatting rules (eclipse-codeformatter.xml) and the code
-   template settings (eclipse-codetemplates.xml):
+3. Import the code formatting rules `eclipse-codeformatter.xml` (Project ->
+   Properties -> Java Code Style -> Formatter -> Import...)
 
-        Project Properties -> Java Code Style -> Code Templates -> Import...
-        Project Properties -> Java Code Style -> Formatter -> Import...
+4. Import the template settings `eclipse-codetemplates.xml` (Project ->
+   Properties -> Java Code Style -> Code Templates -> Import...). Make sure
+   the option "Automatically add comments for new methods and types" is
+   checked.
 
 Tips
 ----
